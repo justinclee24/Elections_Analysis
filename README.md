@@ -1,4 +1,4 @@
-# Elections_Analysis
+# Elections Analysis
 
 ## Project Overview
 A Colorado Board of Elections employee has assigned you with tasks given below to complete the election audit of a relevant local congressional election.
@@ -10,8 +10,8 @@ A Colorado Board of Elections employee has assigned you with tasks given below t
 5. Determine the winner of the election based on popular vote.
 
 ## Resources
-Data Source: election_results.csv
-Software: Python 3.7.6, Visual Studio (VS) Code 1.57.1
+- Data Source: election_results.csv
+- Software: Python 3.7.6, Visual Studio (VS) Code 1.57.1
 
 ## Summary
 The analysis of the local congressional election shows:
