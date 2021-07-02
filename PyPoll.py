@@ -25,6 +25,7 @@ winning_count = 0
 winning_percentage = 0
 
 # Open the election results and read the file.
+
 with open(file_to_load) as election_data:
      
 # To do: read and analyze the data here.
@@ -64,7 +65,7 @@ with open(file_to_save, "w") as txt_file:
           f"-------------------------\n")
      print(election_results, end="")
      # After printing the final vote count to the terminal save the final vote count to the text file.
-     txt_file.write(election_results)
+     #txt_file.write(election_results)
     
      # Determine the percentage of votes for each candidate by looping through the counts.
      # 1. Iterate through the candidate list.
@@ -79,7 +80,7 @@ with open(file_to_save, "w") as txt_file:
           # Print each candidate, their voter count, and percentage to the terminal.
           print(candidate_results)
           #  Save the candidate results to our text file.
-          txt_file.write(candidate_results)
+          #txt_file.write(candidate_results)
      
      
           # Determine winning vote count, winning percentage, and winning candidate
@@ -101,4 +102,4 @@ with open(file_to_save, "w") as txt_file:
 
      print(winning_candidate_summary)
      # Save the winning candidate's results to the text file.
-     txt_file.write(winning_candidate_summary)
+     #txt_file.write(winning_candidate_summary)
